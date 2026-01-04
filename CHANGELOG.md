@@ -1,5 +1,10 @@
 # Changelog
 
+## [Unreleased]
+
+### Added
+- `add-note` command for appending timestamped notes to tickets
+
 ## [0.2.0] - 2026-01-04
 
 ### Added

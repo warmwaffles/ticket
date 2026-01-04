@@ -17,6 +17,13 @@ Key functions:
 
 Dependencies: bash, sed, awk, find. Optional: ripgrep (faster grep), jq (for query command).
 
+## Changelog
+
+When committing notable changes to the `ticket` script (new commands, flags, bug fixes, behavior changes), update CHANGELOG.md in the same commit:
+- Create `## [Unreleased]` section at top if it doesn't exist
+- Add bullet points under appropriate heading (Added, Fixed, Changed, Removed)
+- Only script changes need logging; docs/workflow changes don't
+
 ## Releases & Packaging
 
 Before tagging a release:
